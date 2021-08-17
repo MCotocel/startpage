@@ -6,7 +6,7 @@ html {
 
 body {
     background-color: #181e23;
-    padding: 300px;
+    padding: 100px;
 }
 
 a {
@@ -17,18 +17,6 @@ a {
 a:focus,
 a:hover {
     font-weight: bold;
-}
-
-ul, nav {
-    list-style-type: none;
-    margin: 5px;
-    display: inline-block;
-    text-align: center;
-}
-
-div {
-    text-align: center;
-    padding-right: 75px;
 }
 
 .center {
