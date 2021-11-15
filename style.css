@@ -1,44 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+
 html {
-    color: #d5d5d5;
-    font: 18px "Iosevka Nerd Font";
-    height: 100%;
+  color: #d5d5d5;
+  font: 18px "Fira Code", monospace;
+  height: 100%;
 }
 
 body {
-    background-color: #181e23;
-    padding: 100px;
+  background-color: #181e23;
+  padding: 100px;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 a:focus,
 a:hover {
-    font-weight: bold;
-}
-
-.center {
-    text-align: center;
-    margin-left: -25px;
-    margin-bottom: 50px;
+  font-weight: bold;
 }
 
 input {
-    background-color: unset;
-    font: 16px "Iosevka Nerd Font";
-    color: #d5d5d5;
-    height: 100%;
-    width: 100%;
-    border-top-style: hidden;
-    border-right-style: hidden;
-    border-left-style: hidden;
-    border-bottom-style: solid;
-    border-bottom-color: #384149;
-    text-align: center;
-    margin-bottom: 50px;
+  background-color: unset;
+  font: 16px "Fira Code", monospace;
+  color: #d5d5d5;
+  height: 100%;
+  width: 99%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: solid;
+  border-bottom-color: #384149;
+  text-align: center;
 }
+
 input:focus {
-    outline: none;
+  outline: none;
+}
+
+ul, form, p {
+  list-style-type: none;
+  padding: 0;
+  box-shadow: 0px 0px 5px #000000;
+  border-radius: 15px;
+  width: 70%;
+  padding: 15px;
 }

@@ -5,14 +5,23 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <form id="form" role="search">
+    <center><p><span id="time"></span> | <span id="date"></span></p></center>
+    <center><form id="form" role="search">
       <input
         type="search"
         id="query"
         name="q"
-        placeholder="Search DuckDuckGo..."
+        placeholder="Search"
       />
-    </form>
+    </form></center>
+    <center><ul>
+      <li><a href="https://gituhb.com">Github</a></li>
+      <li><a href="https://lobste.rs">Lobsters</a></li>
+      <li><a href="https://wikipedia.org">Wikipedia</a></li>
+      <li><a href="https://news.ycombinator.com">Hacker News</a></li>
+      <li><a href="https://search.nixos.org">NixOS Search</a></li>
+      <li><a href="https://tilde.club/~matei">Digital Garden</a></li>
+    </ul></center>
     <script>
       const f = document.getElementById("form");
       const q = document.getElementById("query");
@@ -25,6 +34,9 @@
       }
 
       f.addEventListener("submit", submitted);
+      var date = new Date();
+      document.getElementById("time").innerHTML = date.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', hour12: false});
+      document.getElementById("date").innerHTML = date.toLocaleString([], {day: '2-digit', month: '2-digit'});
     </script>
   </body>
 </html>
