@@ -22,7 +22,7 @@ a:hover {
 }
 
 input {
-  background-color: unset;
+  background-color: #181e23;
   font: 16px "Fira Code", monospace;
   color: #d5d5d5;
   height: 100%;
