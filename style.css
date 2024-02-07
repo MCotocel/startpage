@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-color: #181e23;
+  background-color: #000000;
   padding: 5%;
 }
 
@@ -22,7 +22,7 @@ a:hover {
 }
 
 input {
-  background-color: #181e23;
+  background-color: #000000;
   font: 16px "Fira Code", monospace;
   color: #d5d5d5;
   height: 100%;
@@ -31,7 +31,7 @@ input {
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: solid;
-  border-bottom-color: #384149;
+  border-bottom-color: #000000;
   text-align: center;
 }
 
